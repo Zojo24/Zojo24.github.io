@@ -11,7 +11,7 @@
 <br/>
 
 이번 프로젝트는 HTML/CSS를 주로 사용하여 섹션을 나누고 배운 기능들을 활용해보는데 집중했습니다. 
-기본적으로 깔끔한 레이아웃에 `hover`, `position: absolute`, `grid` 를 간단하게 사용해볼 수 있을 것 같아 선택하게 되었습니다.
+기본적으로 깔끔한 레이아웃에 `hover`, `position: absolute`, `grid` 를 간단하게 사용해볼 수 있을 것 같아 MUJI 사이트를 선택하게 되었습니다.
 
 
 처음해보는 클론 과제로 큰 구조를 잡고 레이아웃을 정리하는 것이 어렵고 시간이 많이 소요되었습니다. 
@@ -23,11 +23,12 @@
 **참고사항:** 
 - 11/23일 홈페이지 레이아웃 기준으로 최종 수정하였기 때문에 추후에 이벤트 내용이나 이미지 일부가 실제 MUJI사이트와 다를 수 있습니다. 
 - 모든 링크는 연결이 되어있어서 해당 페이지로 넘어갈 수 있으나 검색 기능은 구현하지 않아 작동하지 않습니다.  
-<br/>
+
 
 
 
 ## 주로 사용된 기능:
+
 ### HEADER 
 Top과 Bottom으로 구조를 나누고 `flex`를 사용하여 logo, icon, input를 배치하였습니다.
 
@@ -38,7 +39,7 @@ Bottom 부분에 있는 메인 메뉴의 경우 `position: relative`와`position
 ![](https://velog.velcdn.com/images/zojo24/post/fe9d6208-54b4-48c9-bb55-7b99cc39a5ba/image.png)
 
 
-----------
+
 
 ### ASIDE 
 사이트 왼쪽에 위치한 사이드 메뉴는 side\__menu와 menu\__sub으로 구조를 나눴습니다. 
@@ -50,7 +51,7 @@ menu\__sub에도 마찬가지로 `hover`를 사용하여 마우스 포인터가 
 
 ![](https://velog.velcdn.com/images/zojo24/post/dd0fb8e2-7b0e-4179-91b9-3683678f8237/image.png)
 
-----------
+
 
 ### MAIN
 카테고리 별로 구역을 설정하여 작업하였습니다. 주로 사용된 기능은 `swiper`와 `flex`입니다.
@@ -74,7 +75,7 @@ CSS에서 `swiper-button`과 `swiper-pagination-bullet`에 별도의 스타일�
 
 
 
-----------
+
 
 ### FOOTER
 간단해보이지만 영역을 구분 짓고 레이아웃을 정리하는데 생각보다 시간이 걸렸던 부분입니다. 
@@ -82,6 +83,6 @@ footer\__top, inner (logo\__ area, content\__area)로 크게 나누었습니다.
 
 ![](https://velog.velcdn.com/images/zojo24/post/a20af70c-b05d-43a1-a599-ec064b06feb9/image.png)
 
-----------
+
 
 
